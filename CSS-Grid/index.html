@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="title">
+        <h1>CSS GRID</h1>
+    </header>
+    <div class="container">
+        <header class="header">
+            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjQjcxQzFDIiBkPSJNMzguMSwxOC44Yy0wLjItMS41LTAuNS03LjgtMi05LjhjLTUuMy00LjItMTItNC0xMi00cy02LjctMC4yLTEyLDRjLTEuNCwyLTEuOSw4LjMtMiw5LjhsMC41LDkuMnYwLjJjMCwwLDEuOSw4LjMsMi43LDkuN2MwLjksMS44LDMuNiw1LjIsNS44LDYuNWMwLjksMC41LDMuMywwLjYsNSwwLjZjMS45LDAsNC4yLTAuMiw1LTAuNmMyLjItMS4xLDQuOC00LjYsNS44LTYuNWMwLjgtMS40LDIuNy05LjcsMi43LTkuN3YtMC4yTDM4LjEsMTguOHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkZDMTA3IiBkPSJNMzQuOSwyOWMtMC41LDAuNi0zLjQsNi4yLTMuNCw2LjJzLTAuNSwyLjIsMCw0LjJjMC41LDItMC41LDIuMi0wLjUsMi4ybC0xLjIsMS40bC0yLjItMC45aC02LjdsLTIuMiwwLjlsLTEuMi0xLjRjMCwwLTAuOS0wLjItMC41LTIuMmMwLjUtMiwwLTQuMiwwLTQuMnMtMy40LTUuNS0zLjktNi4yYy0wLjUtMC42LTAuOC0yLjgtMC44LTIuOGwxLjItMy41bC0wLjMtMTAuNmMwLDAsMC45LTEuNCwyLjItMi4zYzEuMS0wLjgsNC4yLTEuNyw0LjItMS43bDEuMSw3LjhjMCwwLDAuMywxLjcsMC4zLDEuOGMwLDAuMiwxLjEsMC41LDEuMSwwLjVoNC4xYzAsMCwxLjEtMC4zLDEuMS0wLjVjMC0wLjIsMC4zLTEuOCwwLjMtMS44bDEuMS03LjhjMCwwLDMuMSwwLjgsNC4yLDEuN2MwLjksMC45LDIsMi4zLDIsMi4zbC0wLjMsMTAuNWwxLjIsMy41QzM1LjcsMjYuMiwzNS40LDI4LjQsMzQuOSwyOXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRThCMDA2IiBkPSJNMzQuMywyN2wtMC42LDAuM2MtMS4yLDAuNy0xLjksMS4xLTIuNCwxLjNDMzAuOSwyOSwzMC4zLDI5LDMwLjEsMjlMMjcsMjkuMmwwLDAuNGwwLTAuNGMtMC40LDAtMC45LTAuMS0xLjItMC42Yy0wLjEtMC4xLTAuMy0wLjQtMC43LTFjLTAuMi0wLjItMC43LTAuMy0xLjEtMC4zcy0wLjgsMC0xLjEsMC4zYy0wLjQsMC42LTAuNiwwLjgtMC43LDFjLTAuMywwLjQtMC44LDAuNi0xLjIsMC42YzAsMCwwLDAsMCwwTDE3LjgsMjljLTAuMSwwLTAuNywwLTEuMy0wLjRjLTAuNC0wLjItMS4xLTAuNi0yLjMtMS4zbC0wLjctMC40Yy0wLjItMC4xLTAuNC0wLjMtMC40LTAuNmMtMC4xLTAuNCwwLjItMC44LDAuMy0wLjlsMS4zLTFjMC4xLTAuMSwwLjYtMC4zLDEuMS0wLjFjMC4yLDAuMSwwLjQsMC4xLDAuNywwLjJjMS4yLDAuNCwzLjUsMS4zLDUuNSwxLjRsMy43LDBjMi4xLTAuMSw0LjMtMSw1LjUtMS40YzAuMy0wLjEsMC41LTAuMiwwLjctMC4yYzAuNC0wLjIsMSwwLDEuMSwwLjFsMS4zLDFjMC4xLDAuMSwwLjQsMC40LDAuMywwLjlDMzQuOCwyNi42LDM0LjYsMjYuOCwzNC4zLDI3eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM4MUQ0RkEiIGQ9Ik0yNS42IDI3LjJjMCAwIC42LjkuOCAxLjEuMi4zLjYuMy42LjNsMy4xLS4yYzAgMCAuNiAwIC45LS4zLjUtLjIgMi4yLTEuMiAzLTEuNy4zLS4yIDAtLjUgMC0uNUwzMi44IDI1YzAgMC0uMi0uMi0uNSAwLS45LjMtMy43IDEuNS02LjQgMS43QzI1LjEgMjYuOCAyNS42IDI3LjIgMjUuNiAyNy4yek0yMi40IDI3LjJjMCAwLS42LjktLjggMS4xLS4yLjMtLjYuMy0uNi4zbC0zLjEtLjJjMCAwLS42IDAtLjktLjMtLjUtLjItMi4yLTEuMi0zLTEuNy0uMy0uMiAwLS41IDAtLjVsMS4yLS45YzAgMCAuMi0uMi41IDAgLjkuMyAzLjcgMS41IDYuNCAxLjdDMjIuOSAyNi44IDIyLjQgMjcuMiAyMi40IDI3LjJ6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0UxRjVGRSIgZD0iTTI3LjYgMjcuN2wyLjYgMCAyLjUtMS41TDMyIDI1LjFjLTEgLjQtMyAxLjItNS4xIDEuNUwyNy42IDI3Ljd6TTIxLjEgMjYuNkMxOSAyNi4zIDE3IDI1LjUgMTYgMjUuMWwtLjcgMS4xIDIuNSAxLjUgMi42IDBMMjEuMSAyNi42eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM4NTE0MTQiIGQ9Ik0zNy4zIDI4LjFoLjhjLjMgMCAuNi0uMy42LS42bC4zLThjMC0uMy0uMy0uNi0uNi0uNmgtLjNMMzcuMyAyOC4xek05LjkgMTguOEg5LjZjLS4zIDAtLjYuMy0uNi42bC4zIDhjMCAuMy4zLjYuNi42aC44TDkuOSAxOC44eiI+PC9wYXRoPjwvc3ZnPg=="/>
+            <h2>Súper Mundo</h2>
+        
+        </header>
+        <main class="content">
+            <article class="article">
+                <h1>Canadá</h1>
+                <p>
+                    Canadá es el país norteamericano que se extiende desde los Estados Unidos en el sur hasta el círculo polar ártico en el norte. Las ciudades principales incluyen la enorme Toronto, Vancouver, el centro cinematográfico de la costa oeste, las ciudades de habla francesa Montreal y Quebec, y la capital Ottawa. Las vastas franjas de naturaleza de Canadá incluyen el Parque Nacional Banff ubicado en un lago en las Montañas Rocosas. 
+                </p>
+            </article>
+            <article class="article">
+                <h1>Estados Unidos</h1>
+                <p>
+                    Estados Unidos es un país de 50 estados que ocupa una extensa franja de América del Norte, con Alaska en el noroeste y Hawái que extiende la presencia del país en el océano Pacífico. Entre las principales ciudades de la costa del Atlántico, se encuentran Nueva York, un centro global financiero y cultural, y la capital Washington D. C. Chicago, metrópolis del medio oeste, es famosa por su influencia arquitectónica y, en la costa oeste, Hollywood, Los Ángeles, es famosa por la industria cinematográfica.
+                </p>
+            </article>
+            <article class="article">
+                <h1>México</h1>
+                <p>
+                    México es un país entre los Estados Unidos y América Central, conocido por las playas en el Pacífico y el golfo de México, y su diverso paisaje de montañas, desiertos y selvas. Las ruinas antiguas, como Teotihuacán y la ciudad maya de Chichén Itzá, se distribuyen por el país, al igual que las ciudades de la época colonial española. En la capital Ciudad de México, las elegantes tiendas, los famosos museos y los restaurantes gourmet son parte de la vida moderna.
+                </p>
+            </article>
+            <article class="article">
+                <h1>Panamá</h1>
+                <p>
+                    Panamá es un país ubicado en el istmo que une América Central y América del Sur. El Canal de Panamá, un famoso hito de la ingeniería humana, atraviesa su centro y une los océanos Atlántico y Pacífico para crear una ruta marítima esencial. En la capital, la ciudad de Panamá, los clubes, casinos y rascacielos modernos contrastan con los edificios coloniales del Casco Viejo y la selva del Parque Natural Metropolitano.
+                </p>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <div>
+                <img src="img/venezuela.webp" alt="">
+                <p>Venezuela es un país de la costa norte de América del Sur, con diversas atracciones naturales.</p>
+            </div>
+            <div>
+                <img src="img/brasil.png" alt="">
+                <p>Brasil es un vasto país de Sudamérica que se extiende desde la Cuenca del Amazonas en el norte hasta los viñedos y las enormes cataratas del Iguazú en el sur.</p>
+            </div>
+            <div>
+                <img src="img/argentina.png" alt="">
+                <p>Argentina es un país sudamericano de gran envergadura con un terreno que incluye las montañas de los Andes, lagos glaciales y praderas en las Pampas, la tierra tradicional de pastoreo de su famoso ganado.</p>
+            </div>
+        </aside>
+
+        <div class="related-post">
+            Chile
+        </div>
+        <div class="related-post">
+            Ecuador
+        </div>
+        <div class="related-post">
+            Colombia
+        </div>
+        <div class="related-post">
+            Bolivia
+        </div>
+        <div class="related-post">
+            Perú
+        </div>
+
+        <footer class="footer">
+            <center><p>© 2023 Súper Mundo - Todos los Derechos Reservados.</p></center>
+        </footer>
+
+
+
+    </div>
+
+
+</body>
+</html>
